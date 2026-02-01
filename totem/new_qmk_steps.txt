@@ -1,0 +1,4 @@
+1. make changes to "C:\Users\shawn\OneDrive\qmk_firmware\keyboards\totem\keymaps\tech5un\keymap.c"
+2. make uf2 file
+   qmk compile -c -kb totem -km tech5un -e CONVER_TO=elite_pi
+3. copy file made from command onto both halves of keyboard after putting it into bootloader mode
